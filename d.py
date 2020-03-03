@@ -2,7 +2,6 @@ import discord
 import asyncio
 import random
 
-token = 'NjY3MDk2MzU0NTgwOTg3OTE0.Xl5n_A.CrekFv-T5H9KhzYH4xrBLHPWxu0'
 serverid = 568776079918104612
 rainbowrolename = "ROLE"
 delay = 5
@@ -45,4 +44,4 @@ async def on_ready():
     print('Ready.')
     print('------------')
 
-client.run(token)
+client.run(os.getenv('TOKEN'))
