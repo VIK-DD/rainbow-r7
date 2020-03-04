@@ -4,7 +4,7 @@ import os
 import random
 
 serverid = 568776079918104612
-rainbowrolename = "ROLE"
+rainbowrolename = "Scripter"
 delay = 5
 
 
