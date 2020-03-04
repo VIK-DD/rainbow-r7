@@ -3,7 +3,7 @@ import asyncio
 import os
 import random
 
-serverid = 568776079918104612
+serverid = 680854529134428291
 rainbowrolename = "Scripter"
 delay = 5
 
