@@ -38,11 +38,8 @@ async def rainbowrole(role):
 
 @client.event
 async def on_ready():
-    client.loop.create_task(rainbowrole(rainbowrolename))
-    print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
-    print('Ready.')
-    print('------------')
+   await client.change_presence(activity=discord.Streaming(name="Rainbow In 69 Servers", url="https://www.twitch.tv/yamil010"))
+   print('Ready To Rainbow')
+
 
 client.run(os.getenv('TOKEN'))
