@@ -4,8 +4,8 @@ import os
 import random
 
 serverid = 568776079918104612
-rainbowrolename = "ROLE"
-delay = 5
+rainbowrolename = "Scripter"
+delay = 3
 
 
 client = discord.Client()
