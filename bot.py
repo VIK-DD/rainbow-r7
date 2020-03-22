@@ -3,9 +3,9 @@ import asyncio
 import os
 import random
 
-serverid = 568776079918104612
-rainbowrolename = "Scripter"
-delay = 3
+serverid = 680854529134428291
+rainbowrolename = "Bot"
+delay = 2
 
 
 client = discord.Client()
@@ -41,5 +41,13 @@ async def on_ready():
    await client.change_presence(activity=discord.Streaming(name="Rainbow In 69 Servers", url="https://www.twitch.tv/yamil010"))
    print('Ready To Rainbow')
 
+@client.event
+async def on_ready():
+    client.loop.create_task(rainbowrole(rainbowrolename))
+    print('Logged in as')
+    print(client.user.name)
+    print(client.user.id)
+    print('Ready.')
+    print('------------')
 
 client.run(os.getenv('TOKEN'))
