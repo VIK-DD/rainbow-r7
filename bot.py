@@ -3,8 +3,8 @@ import asyncio
 import os
 import random
 
-serverid = 680854529134428291
-rainbowrolename = "Bot"
+serverid = 568776079918104612
+rainbowrolename = "ROLE"
 delay = 5
 
 
