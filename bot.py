@@ -3,9 +3,9 @@ import asyncio
 import os
 import random
 
-serverid = 568776079918104612
-rainbowrolename = "rainbow"
-delay = 3
+serverid = 714404440094015490
+rainbowrolename = "Scripter"
+delay = 1
 
 
 client = discord.Client()
